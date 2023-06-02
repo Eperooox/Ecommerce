@@ -18,7 +18,7 @@ public class Create {
 
         Categoria c = new Categoria();
         c.setId(1);
-        c.setNome("Games");
+        c.setNome("Jogos");
 
         em.persist(c);
 
